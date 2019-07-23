@@ -26,6 +26,10 @@ database.add('memos', {
 // )
 
 // 查找
+// var a = database.get('memos')
+// console.log(a)
+
+// 查找某一项
 // var a = database.get('memos', { id: 1563868935 })
 // console.log(a)
 

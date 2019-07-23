@@ -9,8 +9,14 @@ class Database {
     this.db = low(adapter)
     this.db.defaults(defaults).write()
   }
-  // 查询
-  get(path, keyObj) {
+  // 查询所有
+  get(path) {
+    return this.db
+      .get(path)
+      .value()
+  }
+  // 查询某一项
+  find(path, keyObj) {
     return this.db
       .get(path)
       .find(keyObj)
