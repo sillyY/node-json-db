@@ -1,0 +1,13 @@
+{
+  "name": "node-json-db",
+  "version": "1.0.0",
+  "description": "node json database",
+  "main": "index.js",
+  "repository": "https://github.com/sillyY/node-json-db.git",
+  "author": "sillyy <965768042@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0"
+  }
+}
