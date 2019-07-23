@@ -16,8 +16,8 @@ database.add('memos', {
 //   id: 1563868935
 // })
 
-// 修改
-// database.set(
+// 更新
+// database.update(
 //   'memos',
 //   { id: 1563868935 },
 //   {
